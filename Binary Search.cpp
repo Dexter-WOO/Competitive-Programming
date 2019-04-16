@@ -1,6 +1,3 @@
-// Binary Search, O(log n)
-// Start
-
 int low=0, high=n-1, mid;
 while (low<=high)
 {
@@ -14,5 +11,3 @@ while (low<=high)
 		high=mid-1;
 }
 cout << ans;
-
-// End
