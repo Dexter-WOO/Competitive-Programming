@@ -1,6 +1,3 @@
-// Maximum subarray sum (Kadane's Algorithm), O(n)
-// Start
-
 int best=0, sum=0;
 for (int i=0; i<n; i++)
 {
@@ -8,5 +5,3 @@ for (int i=0; i<n; i++)
 	best=max(best, sum);
 }
 cout << best;
-
-// End
