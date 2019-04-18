@@ -36,5 +36,4 @@ int main ()
         v[b].push_back(a);
     }
     bfs();
-    cin >> x;
 }
